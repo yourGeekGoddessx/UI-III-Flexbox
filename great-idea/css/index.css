@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+
 .navigation {
 	padding: 10px;
 	display: flex;
@@ -100,4 +101,68 @@ h1, h2, h3, h4, h5 {
 .jumbotron button {
 	font-size: 15px;
 	height: 30px;
+}
+
+hr {
+	width: 80%;
+}
+
+.top-row {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around ;
+	max-width: 100%;
+}
+
+.top-section {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 20px;
+	width: 50%;
+}
+
+.top-row h2 {
+	font-size: 18px;
+}
+
+.middle-section {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	width: 100%;
+}
+
+.middle-img {
+	padding-top: 20px;
+	width: 100%;
+}
+
+.bottom-row {
+	display: flex;
+	justify-content: space-around ;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+.bottom-section {
+	padding-top: 20px;
+	width: 30%;
+}
+
+.web-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 40px;
+	
+}
+
+.contact {
+	padding-left: 50px;
+	padding-top: 30px;
+}
+
+.contact p {
+	padding: 10px;
 }
