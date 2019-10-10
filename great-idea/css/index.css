@@ -166,3 +166,46 @@ hr {
 .contact p {
 	padding: 10px;
 }
+
+.top-info-services {
+	padding: 20px;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+}
+
+.services-header-img {
+	padding-top: 20px;
+	max-width: 90%;
+}
+
+.boxes-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;	
+}
+
+.services-box {
+	width: 40%;
+	margin: 10px;
+	border: 1px solid black;
+}
+
+.services-box p {
+	padding: 5px;
+	padding-bottom: 10px;
+	margin-left: 10px;
+}
+
+.services-box button {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+
+.services-box h2 {
+	margin-top: 10px;
+	margin-left: 10px;
+}
